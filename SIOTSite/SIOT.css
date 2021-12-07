@@ -1,0 +1,474 @@
+@charset "UTF-8";
+/* CSS Document */
+::selection {
+    color: black!important;
+    background: white;
+  }
+
+.body{
+	margin: 0px;
+	height: 4000px;
+	align-items: flex-start;
+	background-color: #101010;
+}
+
+.bar {
+  	position: fixed;
+}
+
+.navbarleft{
+	top: 0;
+	left:0;
+	height: 50vh;
+	width: 20%;
+	float:left;
+	position: fixed;
+	display: block;
+}
+
+.dropdown{
+	position:absolute;
+	display:none;
+}
+
+.dropbutton{
+	display:none;
+	display: block;
+}
+
+.dropdowncontent{
+	display:none;
+}
+
+.navbarright{
+	top: 0;
+	right:0;
+	height: 50vh;
+	width: 20%;
+	float:right;
+	postition: sticky;
+	align-content: center;
+	z-index: 100;
+}
+
+.centrebar{
+	width: 60%;
+	height: auto;
+	position: absolute;
+	float:center;
+	align-content: center;
+	top:0;
+	left:20%;
+}
+
+.titlebox{
+	height:70px;
+	width: 100%;
+	margin: 0;
+	text-align:center;
+	padding: 70px 0px;
+}
+
+.navbuttoncolumn{
+	align-content: center;
+	margin: 70px auto; 
+	width: 130px;
+	height: 100vh;
+}
+
+.navbuttonbox{
+	align-content: center;
+	display: flex;
+	margin: 5px 0px 10px 0px;
+}
+
+.navbuttonboxsmall{
+	align-content: center;
+	margin: 5px 0px 10px 0px;
+	display:none;
+}
+
+.navbutton{background-color: #202020;}
+.navbutton{
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+    border-radius: 10px;
+	border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+	margin: 5px 5px;
+	width: 25px;
+	height: 25px;
+	transition-duration: 0.4s;
+}
+
+.navbutton:hover {
+	background-color: #696969;
+}
+
+.navbuttonleft{background-color: #202020;}
+.navbuttonleft{
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+    border-radius: 10px;
+	border: none;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+	margin: 0px 0px;
+	width: 100%;
+	height: 25px;
+	transition-duration: 0.4s;
+}
+
+.navbuttonleft:hover {
+	background-color: #696969;
+}
+
+.ppimagewrapper{
+	width: 100%;
+	margin: 0px 0px 7px 0px;
+}
+
+.ppimage{
+	border-radius: 10px;
+}
+
+.heading1 {
+	position: relative;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-size: 40px;
+	font-weight: 600;
+	color: #FFFFFF;
+}
+
+.heading2 {
+	position: relative;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-size: 35px;
+	line-height: 120%;
+	font-weight: 500;
+	padding: 40px 0px 30px 0px;
+	color: #FFFFFF;
+}
+
+.subheading1 {
+	position: relative;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-size: 30px;
+	line-height: 120%;
+	font-weight: 500;
+	padding: 40px 0px 30px 0px;
+	color: #FFFFFF;
+}
+
+.subheading2 {
+	position: relative;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-size: 20px;
+	line-height: 120%;
+	font-weight: 500;
+	padding: 10px 0px 10px 0px;
+	color: #FFFFFF;
+}
+
+.bigtext {
+	position: relative;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-size: 25px;
+	line-height: 120%;
+	font-weight: 500;
+	padding: 10px 0px 10px 0px;
+	color: #FFFFFF;
+}
+
+
+.text{
+	position: relative;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-size: 17px;
+	line-height: 125%;
+	font-weight: 400;
+	padding-top: 0px;
+	padding-bottom: 00px;
+	padding-left: 0px;
+	padding-right: 0px;
+	color: #FFFFFF;
+}
+
+.projectbox{
+	height:auto;
+	margin: 0px 0px 80px 0px;
+}
+
+.projectimagewrapper{
+	display:flex;
+	margin: 0;
+	position: relative;
+    width: 100%;
+	height: auto;
+    overflow: hidden;
+	border-radius: 20px;
+	align-content: center;
+}
+
+.projectimage{
+	border-radius: 20px;
+	height: auto;
+}
+
+.projectimagewrappersmall{
+	display:flex;
+	margin: 0;
+	position: relative;
+    width: 100%;
+	height: auto;
+    overflow: hidden;
+	border-radius: 10px;
+	align-content: center;
+}
+
+
+.projectimagesmall{
+	border-radius: 10px;
+	height: auto;
+}
+
+.projectsubbox{
+	display: block;
+	padding: 0px 0px 40px 0px;
+}
+
+.projectsubbox2{
+	width: 50%;
+}
+
+.projectvideo{
+	border-radius: 20px;
+}
+
+.pdfbutton{background-color: #202020;}
+.pdfbutton{
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+    border-radius: 10px;
+	border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+	margin: 0px 0px 40px 0px;
+	width: 30px;
+	height: 25px;
+	float: left;
+	transition-duration: 0.4s;
+}
+
+.pdfbutton:hover {
+	background-color: #696969;
+}
+
+.demobutton{background-color: #202020;}
+.demobutton{
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+    border-radius: 10px;
+	border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+	margin: 0px 0px 40px 0px;
+	width: 120px;
+	height: 25px;
+	float: left;
+	transition-duration: 0.4s;
+}
+
+.demobutton:hover {
+	background-color: #696969;
+}
+
+.headingbox{
+	display: flex;
+}
+
+.projectspagedisplaybox{
+}
+
+.projectspagemainbox{
+	height:auto;
+	margin: 0px 0px 1vw 0px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.projectpagelargeimagewrapper{
+	width: 48.75%;
+	overflow: hidden;
+	justify-content: center;
+}
+
+.projectpagesmallbox{
+	height:auto;
+	width: 48.75%;
+	display: block;
+	justify-content: space-between;
+}
+
+.projectpagesmallrow{
+	height:auto;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 0px 0.81vw 0px;
+}
+
+
+.projectpagesmallimagewrapper{
+	width: 47.75%;
+	overflow: hidden;
+	justify-content: center;
+}
+
+.projectimagesmall{
+	border-radius: 20px;
+	height: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+	.body{
+		align-items: center;
+		height: auto
+	}
+	.centrebar{
+		width: 80%;
+		padding: 0 10% 0 10%;
+		left: 0;
+	}
+	.navbarleft{
+		display: none;
+	}
+	
+	.navbuttonboxsmall{
+		display:flex;
+		padding: 0px;
+		position: absolute;
+		top: 60px;
+		right: 10%;
+		z-index: 1;
+	}
+	
+	.dropdown{
+		position:absolute;
+		top: 70px;
+		left:10%;
+		display:block;
+		z-index: 1;
+	}	
+
+	.dropbutton{
+		width: 40px;
+		display:auto;
+		z-index: 1;
+	}
+
+	.dropdowncontent{
+		display:none;
+		position:absolute;
+		left: -20px;
+		text-align: left;
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+		font-size: 17px;
+		line-height: 125%;
+		font-weight: 600;
+		background-color: #101010;
+  		min-width: 160px;
+ 		box-shadow: 10px 14px 16px 0px rgba(0,0,0,0.8);
+		border-radius: 10px;
+  		z-index: 1;
+		padding: 20px 00px 5px 0px;
+	}
+	
+	.dropdowncontent a {
+  		color: white;
+ 		padding: 12px 16px;
+		margin: 0px 5px 0px 5px;
+ 		text-decoration: none;
+		border-radius: 8px;
+  		display: block;
+}
+	.dropdowncontent a:hover {background-color: #404040;}
+
+	.dropdown:hover .dropdowncontent {display: block;}
+	
+	.navbarright{
+		display: none;
+	}
+	.heading1 {
+		font-size: 35px;
+	}
+	.heading2 {
+		font-size: 30px;
+		padding: 35px 0px 25px 0px;
+	}
+	.text {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 725px) {
+	.body{
+		height:auto;
+	}
+	.centrebar{
+		left: 0;
+	}
+	.heading1{
+		position: absolute;
+		top: 80px;
+		text-align: left;
+	}
+	
+	.heading2{
+		padding:30 0 30 0;
+	}
+	
+	.titlebox{
+		height: 150px;
+	}
+	
+	.projectspagemainbox{
+		display: block;
+		margin: 0px;
+	}
+	
+	.projectimage{
+		margin-bottom: 20px;
+	}
+	
+	.projectpagesmallbox{
+		width: 100%
+	}
+	
+	.projectpagesmallrow{
+		margin-bottom:2.5vw;
+	}
+	
+	.projectspagedisplaybox{
+		margin-bottom: 60px;
+	}
+}
